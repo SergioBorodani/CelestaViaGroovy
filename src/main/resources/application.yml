@@ -1,0 +1,21 @@
+server:
+  port: 1239
+
+  #celesta:
+  #h2:
+  #inMemory: true
+
+celesta:
+  jdbc:
+    url: jdbc:postgresql://localhost:5432/smevdb
+    username: postgres
+    password: F708420Dx
+
+#celesta:
+  #scorePath: file:///X:/IdeaProjects/smev-api/src/main/celestasql/ru/curs/smev/data
+  #jdbc:
+    #url: jdbc:firebirdsql://localhost:3050/F:/Programs/RedDatabase/examples/empbuild/SMEV.FDB?encoding=UTF8
+    #username: SYSDBA
+    #password: masterkey
+
+cron.get.data: 0 24 17 * * ?
